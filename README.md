@@ -1,4 +1,5 @@
-* This assignment is a bonus assignment. This is extra credit (it has the same weight as all other assignments) *
+*This assignment is a bonus assignment. This is extra credit (it has the same weight as all other assignments)*
+
 This assignment is the second in a two-part series on building a calculator.
 It follows on from
 [PA08](https://hegden.github.io/ece264/homeworks/PA08.pdf),
