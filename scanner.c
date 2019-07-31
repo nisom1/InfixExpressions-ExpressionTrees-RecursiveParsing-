@@ -131,17 +131,16 @@ Token nextToken(Scanner * s) {
 }
 
 void printToken(Token t, FILE * fout) {
-	fprintf(fout, "Token type: ");
+	//fprintf(fout, "Token type: ");
 	switch (t.type) {
-		case T_VAL: fprintf(fout, "VAL = %f", t.value); break;
-		case T_ADD: fprintf(fout, "OP: +"); break;
-		case T_SUB: fprintf(fout, "OP: -"); break;
-		case T_MUL: fprintf(fout, "OP: *"); break;
-		case T_DIV: fprintf(fout, "OP: /"); break;
-		case T_LPAREN: fprintf(fout, "LPAREN"); break;
-		case T_RPAREN: fprintf(fout, "RPAREN"); break;
-		case T_EOF: fprintf(fout, "EOF"); break;
+		case T_VAL: fprintf(fout, "%f", t.value); break;
+		case T_ADD: fprintf(fout, "+"); break;
+		case T_SUB: fprintf(fout, "-"); break;
+		case T_MUL: fprintf(fout, "*"); break;
+		case T_DIV: fprintf(fout, "/"); break;
+		case T_LPAREN: fprintf(fout, "("); break;
+		case T_RPAREN: fprintf(fout, ")"); break;
+		case T_EOF: fprintf(fout, ""); break;
 		default: fprintf(fout, "ERROR!\n"); exit(1);
 	}
-	fprintf(fout, "\n");
 }
