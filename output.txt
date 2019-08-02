@@ -1,0 +1,30 @@
+Commit ID tagged for submission: 59102c55116e58751976c38e78e258aa6f7073eb
+Submission graded at: 2019-08-01 23:32:40
+
+
+[*] Running make clean...
+[*] Running make...
+
+[*] Running tests with student solution...
+[*] Testing case 1
+Segmentation fault (core dumped)
+diff: output_stu1: No such file or directory
+Segmentation fault (core dumped)
+diff: output_stu1: No such file or directory
+[*] Testing case 2
+Segmentation fault (core dumped)
+diff: output_stu2: No such file or directory
+Segmentation fault (core dumped)
+diff: output_stu2: No such file or directory
+[*] Testing case 3
+Segmentation fault (core dumped)
+diff: output_stu3: No such file or directory
+Segmentation fault (core dumped)
+diff: output_stu3: No such file or directory
+[*] Testing case 4
+Segmentation fault (core dumped)
+diff: output_stu4: No such file or directory
+Segmentation fault (core dumped)
+diff: output_stu4: No such file or directory
+[*] You passed 0/4 of  test cases.
+[*] You passed 0/4 with your solution. (25% each)
